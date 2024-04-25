@@ -27,15 +27,7 @@ If any of the checks fail, the CI will fail.
 [Go to main documentation to see more ↗️](https://github.com/parsecph/clobbr/blob/master/README.md)
 
 ### Tested CIs
-#### CI usage examples
-
-<a href="https://app.circleci.com/pipelines/github/parsecph/clobbr-ci/471/workflows/706bab66-3ced-4a60-aca1-f832e1d1e85a/jobs/470/parallel-runs/0/steps/0-102">
-  <img width="200px" alt="CircleCI integration config" src="https://user-images.githubusercontent.com/1515742/189537171-4a064b0d-3db9-4016-9baf-f6b6ac49f45d.png">
-</a>
-
-<a href="https://app.travis-ci.com/github/parsecph/clobbr-ci">
-  <img width="200px" alt="Travis CI integration config" src="https://user-images.githubusercontent.com/1515742/189537172-c4e01aaf-16f2-499f-92d5-924c82a44540.png">
-</a>
+#### CI output example
 
 <a href="https://ci.appveyor.com/project/dandaniel/clobbr-ci">
   <img width="200px" alt="AppVeyor CI integration config" src="https://user-images.githubusercontent.com/1515742/189537169-1b6b812a-9830-4573-955d-b25ccec27e08.png">
