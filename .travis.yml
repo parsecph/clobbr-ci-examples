@@ -1,0 +1,4 @@
+language: node_js
+node_js:
+  - "16"
+script: npx @clobbr/cli run -u "https://60698fbde1c2a10017544a73.mockapi.io" --checks mean=200 median=200 stdDev=50 q5=150 q50=200 q95=250 q99=300 pctOfSuccess=95

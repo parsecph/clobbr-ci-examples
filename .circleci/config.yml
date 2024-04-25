@@ -1,0 +1,15 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.7
+
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:16.7.0
+    steps:
+      - checkout
+      - run:
+          name: Run clobbr
+          command: npx @clobbr/cli run -u "https://60698fbde1c2a10017544a73.mockapi.io" --checks mean=200 median=200 stdDev=50 q5=150 q50=200 q95=250 q99=300 pctOfSuccess=95
